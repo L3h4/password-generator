@@ -21,8 +21,6 @@ class ui(tk.Frame):
 		self.master.title("pG")
 		self.master.resizable(False,False)
 		self.master.config(bg="#333")
-		
-		
 
 		self.out = tk.Label(text="pass",font="Arial 13",bg="#222",fg="#fff")
 		self.out.pack()
